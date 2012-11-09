@@ -1,0 +1,5 @@
+- Updating bantime doesnt update the bantime in realtime. (Sync_syncshit is needed?)
+- /on timer "*" set status_format9 "blah" (or any) will cause the client, sometimes, to display txt in wrong windows. (race condition?)
+- bxconfigure crashes on full screen terminal emulators (SecureCRT etc) with SIGBUS)
+
+

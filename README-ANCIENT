@@ -1,0 +1,32 @@
+This is BitchX 1.2.2, based on the 1.2SVN copies (from caf). This is slightly different
+than the SVN copies, as I've taken it upon myself to go through and fix tons of compiler warnings, security issues,
+logic issues, useless features, etc. This is far from done, as I have to be careful changing things.
+
+A quick rant:
+
+I made it known to a few people I was working on BitchX and they said 'stop working on a dead client and use irssi'.  Honestly, irssi looks like mIRC
+had a child with ircii, and it doesn't impress me (at all).
+
+I prefer BitchX because I've been using it for it's entire lifetime, and I don't see a need to change to another client. BitchX does everything for me, and it's stable (and this branch is pretty secure), and
+I don't need to download perl scripts or anything for shitlist commands, or operview, or the likes.
+
+So you're asking, why did BitchX fall from grace? One reason is panasync stopped being active in development during the golden days of IRC. I assume (from talks) that he simply got burnt out from doing it and
+just silently left IRC. While I understand his need to go away, he never released his tcl source which caused scripting to come to a halt because there were many people eager to do tcl scripting, but the source
+to tcl.c wasn't released at that time. The other reasons are the DDoS attacks on efnet that crippled the network, preventing development because nobody could 'talk' to anyone in #bitchx because of the
+netsplits.
+
+Once this occured, the 1.0 branches were full of bugs that nobody fixed because there was no development team that had a central leader, panasync was gone, novalogic ran the bitchx domains but he went missing. Most
+of the users in #bitchx were simply lurkers.
+
+There are still a lot of ancient crude from the 90s still present in the client (cdcc stuff, mirc kicking on colors), modules that don't work (aim, napster, etc) that
+I am slowly removing, and setting flood protection off.
+
+At some point, I want to do the following
+
+- Remove mirc color kicking stuff
+- Alter flood protection to be more modern
+- Redo userlists
+- Redo kickban stuff
+- Get rid of all modules that don't work or aren't modern
+[more to come]
+
