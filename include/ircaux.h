@@ -273,10 +273,10 @@ int     inet_aton(const char *, struct in_addr *);
 
 #endif
 
-#ifndef HAVE_STRLCPY
+/* #ifndef HAVE_STRLCPY
 size_t strlcpy(char *, const char *, size_t);
 
-#endif
+#endif */
 
 #ifndef HAVE_STRLCAT
 size_t strlcat(char *, const char *, size_t);

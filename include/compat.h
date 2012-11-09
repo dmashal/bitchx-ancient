@@ -15,9 +15,9 @@ char *my_tparm (const char *, ...);
 unsigned long strtoul (const char *, char **, int);
 #endif
 
-#ifndef HAVE_STRLCPY
+/* #ifndef HAVE_STRLCPY
 size_t strlcpy (char *, const char *, size_t);
-#endif
+#endif */
 
 #ifndef HAVE_STRLCAT
 size_t strlcat (char *, const char *, size_t);
